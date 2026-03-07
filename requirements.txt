@@ -1,0 +1,9 @@
+streamlit
+python-dotenv
+PyPDF2
+openai
+azure-cognitiveservices-speech
+gTTS
+sentence-transformers
+numpy
+reportlab
