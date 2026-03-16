@@ -1,32 +1,40 @@
 # StudyMate-AI
 
-StudyMate-AI is an AI-powered study assistant that helps students interact with their course materials.  
-Users can upload documents such as PDF or TXT files and use AI to ask questions, generate summaries, create slide-style notes, listen to explanations, and export study materials as PDF.
+StudyMate-AI is an AI-powered study assistant designed to help students interact with their course materials in a more efficient way.
 
-The system combines document processing, semantic search, and large language models to provide intelligent, context-aware answers based on the uploaded material.
+Users can upload study documents such as **PDF or TXT files** and interact with them using AI. The system allows students to ask questions about the content, generate summaries, create slide-style study notes, listen to explanations through audio, and export generated study materials as PDF documents.
+
+The platform integrates document processing, semantic search, and large language models to provide intelligent, context-aware responses based on the uploaded material.
 
 ---
 
 ## Features
 
+StudyMate-AI offers several features to enhance the learning experience:
+
 - Upload course materials in **PDF or TXT format**
-- Ask **AI-powered questions grounded in the document**
-- Generate **clear study summaries**
-- Create **slide-style study notes**
+- Ask **AI-powered questions based on the uploaded document**
+- Generate **clear and structured study summaries**
+- Create **slide-style study notes for quick review**
 - Convert explanations into **audio using Text-to-Speech**
-- Export summaries as **PDF documents**
+- Export summaries and notes as **PDF documents**
 
 ---
 
 ## Tech Stack
 
-- Python
-- Streamlit
-- Azure OpenAI
-- Sentence Transformers
-- Semantic Search
-- Text-to-Speech
-- ReportLab
+The project is built using the following technologies:
+
+- **Python**
+- **Streamlit**
+- **Azure OpenAI**
+- **Sentence Transformers**
+- **Semantic Search**
+- **Text-to-Speech**
+- **ReportLab**
+- **GitHub**
+- **Visual Studio Code**
+- **PyCharm**
 
 ---
 
@@ -104,18 +112,27 @@ The application will open in your browser.
 
 ## How It Works
 
-1. User uploads a course document.
-2. The document is split into smaller chunks.
-3. Sentence embeddings are generated.
-4. Semantic search retrieves the most relevant sections.
-5. The AI model generates answers, summaries, or slide-style notes based on the retrieved content.
+The system processes documents and generates AI responses through the following steps:
+
+**1.** The user uploads a course document.
+
+**2.** The document is split into smaller text chunks.
+
+**3.** Sentence embeddings are generated from these chunks.
+
+**4.** Semantic search retrieves the most relevant sections related to the user's query.
+
+**5**. The AI model generates answers, summaries, or slide-style notes based on the retrieved content.
+
 
 ---
 
 ## Future Improvements
 
-- Multi-document support
-- Vector database integration
-- Improved slide generation
-- Voice-based question asking
-- Better UI for studying
+Planned improvements for the project include:
+
+- Support for multiple document uploads
+- Integration with a vector database
+- Improved automatic slide generation
+- Voice-based question interaction
+- Enhanced user interface for studying
